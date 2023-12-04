@@ -1,5 +1,5 @@
 //
-//  hydra.h
+//  siren.h
 //  Kraken Engine / Siren
 //
 //  Copyright 2023 Kearwood Gilbert. All rights reserved.

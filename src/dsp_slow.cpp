@@ -31,13 +31,13 @@
 
 #include "../include/dsp.h"
 
+#ifdef SIREN_DSP_SLOW
+
 // _USE_MATH_DEFINES must be defined to get M_PI in Windows
 #define _USE_MATH_DEFINES
 #include <math.h>
 
 #include <assert.h>
-
-#ifdef SIREN_DSP_SLOW
 
 namespace siren {
 namespace dsp {
