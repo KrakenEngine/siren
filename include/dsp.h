@@ -31,6 +31,8 @@
 
 #pragma once
 
+#include <cstddef>
+
 namespace siren {
 namespace dsp {
 
@@ -44,7 +46,7 @@ namespace dsp {
 
 #if defined(SIREN_DSP_APPLE_VDSP)
 
-  // Apple vDSP
+// Apple vDSP
 typedef DSPSplitComplex SplitComplex;
 struct FFTWorkspace
 {
