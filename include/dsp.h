@@ -31,10 +31,9 @@
 
 #pragma once
 
-#include <cstddef>
 
-namespace siren {
-namespace dsp {
+
+#include <cstddef>
 
 #ifdef __APPLE__
 #define SIREN_DSP_APPLE_VDSP
@@ -45,6 +44,9 @@ namespace dsp {
 #endif
 
 #if defined(SIREN_DSP_APPLE_VDSP)
+
+namespace siren {
+namespace dsp {
 
 // Apple vDSP
 typedef DSPSplitComplex SplitComplex;
