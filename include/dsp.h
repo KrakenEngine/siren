@@ -43,10 +43,10 @@
 #define SIREN_DSP_SLOW
 #endif
 
-#if defined(SIREN_DSP_APPLE_VDSP)
-
 namespace siren {
 namespace dsp {
+
+#if defined(SIREN_DSP_APPLE_VDSP)
 
 // Apple vDSP
 typedef DSPSplitComplex SplitComplex;
